@@ -1,0 +1,1 @@
+function setLanguage(lang) { alert('Language switched to: ' + lang); }
