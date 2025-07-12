@@ -1,1 +1,1 @@
-function setLanguage(lang) { console.log('Switch to language:', lang); }
+function setLanguage(lang) { console.log('Language changed to:', lang); }
