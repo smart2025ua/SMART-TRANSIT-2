@@ -1,60 +1,65 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>Про Нас — Смарт Транзит</title>
-  <meta name="description" content="Інформація про компанію Смарт Транзит: митно-логістичні послуги T1, EX, ENS, KFT та інші.">
-  <meta name="keywords" content="Смарт Транзит, митне оформлення, T1, EX, ENS, KFT, RMPD, ЗДП, логістика">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Компанія СМАРТ ТРАНЗИТ – митно-логістичні послуги T1, T2, ENS, EX та інші по всій Європі." />
+    <meta name="keywords" content="Смарт Транзит, T1, митне оформлення, логістика, ENS, EX, KFT, ЗДП" />
+    <meta name="author" content="СМАРТ ТРАНЗИТ" />
+    <title>Про Нас | СМАРТ ТРАНЗИТ</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; color: #333; }
+        header, footer { background: #3a2614; color: white; padding: 1rem 2rem; text-align: center; }
+        nav a { margin: 0 1rem; text-decoration: none; color: #3a2614; font-weight: bold; }
+        .lang-switch { margin-top: 0.5rem; }
+        .lang-switch button { margin: 0 5px; padding: 5px 10px; cursor: pointer; }
+        main { max-width: 800px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 10px; }
+        h1 { color: #3a2614; }
+    </style>
 </head>
 <body>
-<header>
-  <h1 data-ua="Смарт Транзит" data-en="Smart Transit" data-ru="Смарт Транзит">Смарт Транзит</h1>
-  <div class="language-switcher">
-    <button onclick="setLanguage('ua')">UA</button>
-    <button onclick="setLanguage('en')">EN</button>
-    <button onclick="setLanguage('ru')">RU</button>
-  </div>
-</header>
-
-<nav>
-  <a href="index.html" data-ua="Головна" data-en="Home" data-ru="Главная">Головна</a>
-  <a href="services.html" data-ua="Послуги" data-en="Services" data-ru="Услуги">Послуги</a>
-  <a href="about.html" data-ua="Про Нас" data-en="About" data-ru="О Нас">Про Нас</a>
-  <a href="contacts.html" data-ua="Контакти" data-en="Contacts" data-ru="Контакты">Контакти</a>
-  <a href="faq.html" data-ua="Запитання" data-en="FAQ" data-ru="Вопросы">Запитання</a>
-  <a href="calculator.html" data-ua="Розрахунок" data-en="Calculator" data-ru="Калькулятор">Розрахунок</a>
-</nav>
-
-<main>
-  <h2 data-ua="Про Компанію" data-en="About the Company" data-ru="О компании">Про Компанію</h2>
-
-  <p data-ua="Компанія СМАРТ ТРАНЗИТ була заснована 04.09.2024 року. Штат компанії складається з висококваліфікованих працівників, які мають значний досвід в оформленню митно-логістичних послуг."
-     data-en="SMART TRANSIT was founded on 04.09.2024. Our staff consists of highly qualified specialists with solid experience in customs and logistics services."
-     data-ru="Компания СМАРТ ТРАНЗИТ была основана 04.09.2024 года. Штат компании состоит из высококвалифицированных специалистов с большим опытом в таможенно-логистических услугах.">
-     Компанія СМАРТ ТРАНЗИТ була заснована 04.09.2024 року...
-  </p>
-
-  <p data-ua="Ми цілодобово оформлюємо такі послуги як: Т1, Т2, ENS, RMPD, ЗДП, KFT (реєстрація контейнерів в Туреччині). Послуги оформляємо на всі кордони і країни, також є можливість оформлення EX з усіх країн ЄС."
-     data-en="We provide 24/7 services including: T1, T2, ENS, RMPD, GDP, KFT (container registration in Turkey). Services are available at all borders and countries, including EX from all EU countries."
-     data-ru="Мы круглосуточно оформляем такие услуги, как: T1, T2, ENS, RMPD, ЗДП, KFT (регистрация контейнеров в Турции). Услуги доступны на всех границах и странах, включая EX из всех стран ЕС.">
-     Ми цілодобово оформлюємо такі послуги як: Т1, Т2, ENS...
-  </p>
-
-  <p data-ua="Ми завжди працюємо над покращенням сервісу і можливості оформлення послуг і завдань будь-якої складності. Запрошуємо до співпраці!"
-     data-en="We are constantly working to improve service and handle requests of any complexity. We invite you to cooperate!"
-     data-ru="Мы постоянно работаем над улучшением сервиса и возможностями оформления задач любой сложности. Приглашаем к сотрудничеству!">
-     Ми завжди працюємо над покращенням сервісу...
-  </p>
-</main>
-
-<footer>© 2025 Смарт Транзит</footer>
-<script>
-  function setLanguage(lang) {
-    document.querySelectorAll('[data-' + lang + ']').forEach(function(el) {
-      el.textContent = el.getAttribute('data-' + lang);
-    });
-  }
-</script>
+    <header>
+        <div class="lang-switch">
+            <button onclick="setLanguage('ua')">UA</button>
+            <button onclick="setLanguage('en')">EN</button>
+            <button onclick="setLanguage('ru')">RU</button>
+        </div>
+        <nav>
+            <a href="index.html" data-ua="Головна" data-en="Home" data-ru="Главная">Головна</a>
+            <a href="services.html" data-ua="Послуги" data-en="Services" data-ru="Услуги">Послуги</a>
+            <a href="about.html" data-ua="Про Нас" data-en="About Us" data-ru="О Нас">Про Нас</a>
+            <a href="contacts.html" data-ua="Контакти" data-en="Contacts" data-ru="Контакты">Контакти</a>
+            <a href="faq.html" data-ua="Запитання" data-en="FAQ" data-ru="Вопросы">Запитання</a>
+            <a href="calculator.html" data-ua="Розрахунок" data-en="Calculator" data-ru="Калькулятор">Розрахунок</a>
+        </nav>
+    </header>
+    <main>
+        <h1 data-ua="Про Компанію" data-en="About the Company" data-ru="О Компании">Про Компанію</h1>
+        <p data-ua="Компанія СМАРТ ТРАНЗИТ була заснована 04.09.2024 року. Штат компанії складається з висококваліфікованих працівників , які мають значний досвід в оформленню митно-логістичних послуг ."
+           data-en="SMART TRANSIT was founded on 04.09.2024. The company’s staff consists of highly qualified professionals with extensive experience in customs and logistics services."
+           data-ru="Компания СМАРТ ТРАНЗИТ была основана 04.09.2024 года. Штат компании состоит из высококвалифицированных сотрудников с большим опытом в оформлении таможенно-логистических услуг.">
+           Компанія СМАРТ ТРАНЗИТ була заснована 04.09.2024 року...
+        </p>
+        <p data-ua="Ми цілодобово оформлюємо такі послуги як : Т1 , T2 , ENS , RMPD , ЗДП , KFT ( реєстрація контейнерів в Туреччині ). Послуги оформляємо на всі кордони і країни , також є моживість оформлення EX з усіх країн ЄС"
+           data-en="We provide round-the-clock services such as: T1, T2, ENS, RMPD, GDP, KFT (container registration in Turkey). Services are available at all borders and countries, including EX clearance from all EU countries."
+           data-ru="Мы круглосуточно оформляем такие услуги как: T1, T2, ENS, RMPD, ЗДП, KFT (регистрация контейнеров в Турции). Оформление возможно на всех границах и странах, также возможна подача EX из всех стран ЕС.">
+           Ми цілодобово оформлюємо такі послуги як : Т1 , T2 , ENS...
+        </p>
+        <p data-ua="Ми завжди працюємо над покращенням сервісу і можливості оформлення послуг і завдань будь якої складності . Запрошуємо до співпраці !!!"
+           data-en="We are constantly working to improve our services and the ability to process tasks of any complexity. We invite you to cooperate!!!"
+           data-ru="Мы постоянно работаем над улучшением сервиса и возможностями выполнения задач любой сложности. Приглашаем к сотрудничеству!!!">
+           Ми завжди працюємо над покращенням сервісу...
+        </p>
+    </main>
+    <footer>
+        © 2025 Смарт Транзит
+    </footer>
+    <script>
+        function setLanguage(lang) {
+            document.querySelectorAll('[data-' + lang + ']').forEach(el => {
+                el.textContent = el.getAttribute('data-' + lang);
+            });
+        }
+    </script>
 </body>
 </html>
