@@ -1,36 +1,35 @@
-
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="ua">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Смарт Транзит - Оформлення Т1, EX, митно-логістичні послуги.">
-  <meta name="keywords" content="T1, EX, митне оформлення, логістика, Україна, ЄС">
-  <meta name="author" content="Смарт Транзит">
-  <title>Головна - Смарт Транзит</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Головна — Смарт Транзит</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <div class="language-switcher">
-      <button onclick="changeLanguage('ua')">UA</button>
-      <button onclick="changeLanguage('en')">EN</button>
-      <button onclick="changeLanguage('ru')">RU</button>
-    </div>
-    <nav>
-      <a href="index.html" data-i18n="nav_home">Головна</a>
-      <a href="services.html" data-i18n="nav_services">Послуги</a>
-      <a href="about.html" data-i18n="nav_about">Про Нас</a>
-      <a href="contacts.html" data-i18n="nav_contacts">Контакти</a>
-    </nav>
-  </header>
-  <main>
-    <h1 data-i18n="home_title">Ласкаво просимо до Смарт Транзит!</h1>
-    <p data-i18n="home_text">Ми надаємо якісні митно-логістичні послуги 24/7.</p>
-  </main>
-  <footer>
-    <p>&copy; 2025 Смарт Транзит</p>
-  </footer>
-  <script src="lang.js"></script>
+<header>
+  <h1>Смарт Транзит</h1>
+  <div class="language-switcher">
+    <button onclick="setLanguage('ua')">UA</button>
+    <button onclick="setLanguage('en')">EN</button>
+    <button onclick="setLanguage('ru')">RU</button>
+  </div>
+</header>
+
+<nav>
+  <a href="index.html">Головна</a>
+  <a href="services.html">Послуги</a>
+  <a href="about.html">Про Нас</a>
+  <a href="contacts.html">Контакти</a>
+  <a href="faq.html">Запитання</a>
+  <a href="calculator.html">Розрахунок</a>
+</nav>
+
+<main>
+  <h2>Ласкаво просимо до Смарт Транзит!</h2>
+  <p>Ми надаємо якісні послуги з оформлення T1 і EX для вашого бізнесу.</p><br><a href='contacts.html' class='btn'>Замовити консультацію</a>
+</main>
+
+<footer>© 2025 Смарт Транзит</footer>
+<script src="js/lang.js"></script>
 </body>
 </html>
