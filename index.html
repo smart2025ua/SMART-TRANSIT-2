@@ -1,39 +1,91 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="ua">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="СМАРТ ТРАНЗИТ - митно-логістичні послуги: Т1, EX, ENS, RMPD, ЗДП, KFT">
-  <meta name="keywords" content="митне оформлення, T1, EX, логістика, СМАРТ ТРАНЗИТ, перевезення, оформлення документів">
-  <title>СМАРТ ТРАНЗИТ - Головна</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Головна — Смарт Транзит | Оформлення T1 / EX документів</title>
+  <meta name="description" content="Смарт Транзит — професійне митне оформлення T1, EX, акцизних та транзитних документів. Швидко. Надійно. 24/7.">
+  <meta name="keywords" content="митне оформлення, T1, EX, транзит, митниця, документи, агент">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .hero-img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .service-card {
+      animation: slideUp 0.6s ease forwards;
+      opacity: 0;
+    }
+    .service-card:nth-child(1) { animation-delay: 0.1s; }
+    .service-card:nth-child(2) { animation-delay: 0.2s; }
+    .service-card:nth-child(3) { animation-delay: 0.3s; }
+    .service-card:nth-child(4) { animation-delay: 0.4s; }
+
+    @keyframes slideUp {
+      0% { transform: translateY(30px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <div class="lang-switch">
-      <button onclick="setLanguage('ua')">UA</button>
-      <button onclick="setLanguage('en')">EN</button>
-      <button onclick="setLanguage('ru')">RU</button>
+<header>
+  <h1>Смарт Транзит</h1>
+  <div class="language-switcher">
+    <button onclick="setLanguage('ua')">UA</button>
+    <button onclick="setLanguage('en')">EN</button>
+    <button onclick="setLanguage('ru')">RU</button>
+  </div>
+</header>
+
+<nav>
+  <a href="index.html">Головна</a>
+  <a href="services.html">Послуги</a>
+  <a href="about.html">Про Нас</a>
+  <a href="contacts.html">Контакти</a>
+  <a href="faq.html">Запитання</a>
+  <a href="calculator.html">Розрахунок</a>
+</nav>
+
+<main>
+  <h2>Оформлення T1 / EX документів по всій Європі</h2>
+  <p>Надійний партнер для міжнародного митного оформлення. Працюємо з перевізниками, логістичними компаніями та приватними клієнтами. Гарантуємо швидкість, точність і супровід 24/7.</p>
+
+  <img src="images/customs.jpg" alt="Митне оформлення" class="hero-img">
+
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon">🌍</div>
+      <h3>Оформлення в ЄС</h3>
+      <p>Працюємо з більшістю країн Європи. Підтримка на кожному етапі.</p>
     </div>
-    <nav>
-      <ul>
-        <li><a href="index.html" data-translate="nav_home">Головна</a></li>
-        <li><a href="services.html" data-translate="nav_services">Послуги</a></li>
-        <li><a href="about.html" data-translate="nav_about">Про Нас</a></li>
-        <li><a href="contacts.html" data-translate="nav_contacts">Контакти</a></li>
-        <li><a href="faq.html" data-translate="nav_faq">Запитання</a></li>
-        <li><a href="calculator.html" data-translate="nav_calc">Розрахунок</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h1 data-translate="welcome">Ласкаво просимо до Смарт Транзит!</h1>
-    <p data-translate="intro">Ми надаємо якісні послуги з оформлення T1 і EX для вашого бізнесу.</p>
-    <a class="btn" href="contacts.html" data-translate="order_button">Замовити консультацію</a>
-  </main>
-  <footer>
-    <p>&copy; 2025 Смарт Транзит</p>
-  </footer>
-  <script src="lang.js"></script>
+    <div class="service-card">
+      <div class="service-icon">⏱</div>
+      <h3>Швидкість оформлення</h3>
+      <p>Середній час — від 30 хв. Без затримок і черг.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">📱</div>
+      <h3>Зв'язок 24/7</h3>
+      <p>Вайбер, Телеграм, WhatsApp. Завжди на зв'язку для ваших запитів.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🧾</div>
+      <h3>Повний супровід</h3>
+      <p>Від заявки до архіву документів. Без помилок і зайвих витрат.</p>
+    </div>
+  </div>
+
+  <p style="text-align: center; margin-top: 30px;">
+    <a href="contacts.html" class="btn">Замовити консультацію</a>
+  </p>
+</main>
+
+<footer>© 2025 Смарт Транзит</footer>
+<script src="js/lang.js"></script>
 </body>
 </html>
